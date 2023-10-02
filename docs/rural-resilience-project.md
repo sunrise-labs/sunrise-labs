@@ -1,5 +1,5 @@
 # Rural Resilience Project
-![first prototype design](resilience-hub.png)
+![first prototype design](/resilience-hub.png)
 
 | Project board |      [Github Project Board](https://github.com/orgs/sunrise-labs/projects/1)    | 
 | - | - |
