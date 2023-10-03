@@ -6,6 +6,7 @@ hero:
   name: "Sunrise Labs"
   #text: "A research & develop lab focused on leveraging technology and innovation for social impact"
   tagline: A research & develop lab focused on leveraging technology and innovation for social impact
+  image: white-logo.png
   actions:
     - theme: brand
       text: View Projects
