@@ -15,3 +15,10 @@
 ## Timeline
 1st Jan 2024 - 1 Jan 2025
 
+## Moving to a trailer design
+![trailer inspiration](/trailer.jpg)
+
+## NZ Trailer Suppliers
+-[KiwiAzTrailers](https://kiwiaztrailers.co.nz/products/enclosed-trailer)
+
+-[Top Gear Rotorua](https://topgearrotorua.co.nz/)
