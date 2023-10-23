@@ -10,19 +10,23 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Projects', link: 'projects/rural-resilience-project' }
     ],
-    sidebar: {
-      '/projects/': [
-        {
-          text: 'Projects',
-          items: [
-            { text: 'Rural Resilience', link: '/projects/rural-resilience-project' },
-            { text: 'Galaxy Maps', link: '/projects/galaxy-maps' },
-            { text: 'Tai Collective', link: '/projects/tai-collective' },
-            { text: 'Digital Toa', link: '/projects/digital-toa' },
-          ]
-        }
-      ]
-    },
+    sidebar: [
+      {
+        text: 'Projects',
+        items: [
+          { text: 'Rural Resilience', link: '/projects/rural-resilience-project' },
+          { text: 'Galaxy Maps', link: '/projects/galaxy-maps' },
+          { text: 'Tai Collective', link: '/projects/tai-collective' },
+          { text: 'Digital Toa', link: '/projects/digital-toa' },
+        ]
+      },
+      {
+        text: 'Blog',
+        items: [
+          { text: 'Digital Toa v1', link: '/blog/digital-toa-v1' }
+        ]
+      }
+    ],
 
     // sidebar: [
     //   {
