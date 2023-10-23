@@ -8,27 +8,40 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Projects', link: '/rural-resilience-project' }
+      { text: 'Projects', link: 'projects/rural-resilience-project' }
     ],
+    sidebar: {
+      '/projects/': [
+        {
+          text: 'Projects',
+          items: [
+            { text: 'Rural Resilience', link: '/projects/rural-resilience-project' },
+            { text: 'Galaxy Maps', link: '/projects/galaxy-maps' },
+            { text: 'Tai Collective', link: '/projects/tai-collective' },
+            { text: 'Digital Toa', link: '/projects/digital-toa' },
+          ]
+        }
+      ]
+    },
 
-    sidebar: [
-      {
-        text: 'Projects',
-        items: [
-          { text: 'Rural Resilience Project', link: '/rural-resilience-project' },
-        ]
-      },
-      {
-        text: 'Vitepress Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Projects',
+    //     items: [
+    //       { text: 'Rural Resilience Project', link: '/rural-resilience-project' },
+    //     ]
+    //   },
+    //   // {
+    //   //   text: 'Vitepress Examples',
+    //   //   items: [
+    //   //     { text: 'Markdown Examples', link: '/markdown-examples' },
+    //   //     { text: 'Runtime API Examples', link: '/api-examples' }
+    //   //   ]
+    //   // }
+    // ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/orgs/sunrise-labs/repositories' }
     ]
   }
 })
